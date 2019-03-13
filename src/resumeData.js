@@ -1,79 +1,87 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "imagebaseurl":"https://github.com/agalanis7/",
+    "name": "Andreas Galanis",
+    "role": "Full Stack Developer",
+    "linkedinId":"linkedin.com/in/agalanis7",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": " I like dabbling in react.js, react native, and ruby on rails. In my free time I like to learn about new technologies, go to the beach, exercise, or play with my dog.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/agalanis7",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/agalanis7",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "url":"http://facebook.com/drenomaly",
+          "className":"fa fa-facebook"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a full stack web developer, specializing in react and ruby on rails.  I'm also proficient in WordPress, and I'm available for freelance work.",
+    "address":"Miami Beach, FL",
+    "email":"agalanis7@gmail.com",
+    "phone":"(410) 591-7715",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Wyncode Academy",
+        "specialization":"Full Stack Developer Program",
+        "MonthOfPassing":"Nov",
+        "YearOfPassing":"2018",
+        "Achievements":""
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Hack Reactor",
+        "specialization":"Structured Study Program",
+        "MonthOfPassing":"Dec",
+        "YearOfPassing":"2017",
+        "Achievements":""
+      },
+      {
+        "UniversityName":"University of Maryland, College Park",
+        "specialization":"BS Finance",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2006",
+        "Achievements":""
       }
     ],
-    "work":[
+     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
+        "CompanyName":"Miami Dev Shop",
+        "specialization":"Full Stack Developer Internship",
         "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "YearOfLeaving":"2019",
+        "Achievements":"Exposure to production environment employing react.js, node.js, hapi.js"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"Daystar Contracting",
+        "specialization":"Project Manager",
+        "MonthOfLeaving":"Aug",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":""
       }
     ],
     "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"React"
       },
       {
-        "skillname":"CSS"
+        "skillname":"Ruby On Rails"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"React Native"
       }
     ],
     "portfolio":[
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/modals/m-coffee.jpg"
       },
       {
         "name":"project2",

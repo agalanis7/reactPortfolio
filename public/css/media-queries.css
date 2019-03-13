@@ -17,6 +17,7 @@
       font: 80px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
+      text-shadow: 2px 2px 2px #669ef9;
    }
 
 }
@@ -30,7 +31,8 @@
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
       font: 78px/1.1em 'opensans-bold', sans-serif;
-      letter-spacing: -1px;      
+      letter-spacing: -1px;
+      text-shadow: 2px 2px 2px #669ef9;   
    }
    header .banner-text h3 {
       font: 17px/1.9em 'librebaskerville-regular', serif;
@@ -183,8 +185,99 @@
       line-height: 16px; /* reset line-height from 48px */
       border: none;
    }  
-
-
+   .bar-expand-html {
+      position: absolute;
+      left: 0;
+      top: 0;
+   
+      margin: 0;
+      padding-right: 225px;
+        background: #313131;
+      display: inline-block;
+        height: 42px;
+      line-height: 42px;
+      border-radius: 3px 0 0 3px;
+   }
+   .bar-expand-css {
+      position: absolute;
+      left: 0;
+      top: 0;
+   
+      margin: 0;
+      padding-right: 225px;
+        background: #313131;
+      display: inline-block;
+        height: 42px;
+      line-height: 42px;
+      border-radius: 3px 0 0 3px;
+   }
+   .bar-expand-javascript {
+      position: absolute;
+      left: 0;
+      top: 0;
+   
+      margin: 0;
+      padding-right: 260px;
+        background: #313131;
+      display: inline-block;
+        height: 42px;
+      line-height: 42px;
+      border-radius: 3px 0 0 3px;
+   }
+   .bar-expand-react {
+      position: absolute;
+      left: 0;
+      top: 0;
+   
+      margin: 0;
+      padding-right: 240px;
+        background: #313131;
+      display: inline-block;
+        height: 42px;
+      line-height: 42px;
+      border-radius: 3px 0 0 3px;
+   }
+   .bar-expand-reactNative {
+      position: absolute;
+      left: 0;
+      top: 0;
+   
+      margin: 0;
+      padding-right: 90px;
+        background: #313131;
+      display: inline-block;
+        height: 42px;
+      line-height: 42px;
+      border-radius: 3px 0 0 3px;
+   }
+   
+   .bar-expand-rubyonrails {
+      position: absolute;
+      left: 0;
+      top: 0;
+   
+      margin: 0;
+      padding-right: 225px;
+        background: #313131;
+      display: inline-block;
+        height: 42px;
+      line-height: 42px;
+      border-radius: 3px 0 0 3px;
+   }
+   
+   .bar-expand-wordpress {
+      position: absolute;
+      left: 0;
+      top: 0;
+   
+      margin: 0;
+      padding-right: 200px;
+        background: #313131;
+      display: inline-block;
+        height: 42px;
+      line-height: 42px;
+      border-radius: 3px 0 0 3px;
+   }
    /* Header Styles
    -------------------------------------------------------------------- */
    header .banner {
@@ -353,6 +446,8 @@
    header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
+      text-shadow: 2px 2px 2px #669ef9;
+     
    }
    header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;

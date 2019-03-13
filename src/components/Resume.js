@@ -46,7 +46,7 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
+                          <p className="detail">
                           {item.Achievements}
                           </p>
                        </div>
@@ -68,23 +68,59 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
+               {/* <p>
                {resumeData.skillsDescription}
-               </p>
+               </p> */}
 
    				<div className="bars">
 
    				   <ul className="skills">
-                {
+                {/* {
                   resumeData.skills && resumeData.skills.map((item) => {
-                    return(
+                    return( */}
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                      <span className={`bar-expand-html`}>
+                      </span>
+                      <em>html</em>
+                    
                       </li>
-                    )
-                  })
-                }
+
+                      <li>
+                      <span className={`bar-expand-css`}>
+                      </span>
+                      <em>css</em>
+                      </li>
+
+                      <li>
+                      <span className={`bar-expand-javascript`}>
+                      </span>
+                      <em>JavaScript</em>
+                      </li>
+
+                      <li>
+                      <span className={`bar-expand-react`}>
+                      </span>
+                      <em>React.js</em>
+                      </li>
+
+                      <li>
+                      <span className={`bar-expand-reactNative`}>
+                      </span>
+                      <em>React Native</em>
+                      </li>
+
+                      <li>
+                      <span className={`bar-expand-rubyonrails`}>
+                      </span>
+                      <em>Ruby On Rails</em>
+                      </li>
+
+                      <li>
+                      <span className={`bar-expand-wordpress`}>
+                      </span>
+                      <em>WordPress</em>
+                      </li>
+                
 
    					</ul>
 
